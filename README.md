@@ -26,34 +26,24 @@
 - Loops (for, while)
 - Functions
 
-## 🚀 Getting Started
-
-To run any Python file:
-
-1. Make sure Python is installed on your machine.
-2. Clone this repository or download the `.py` files.
-3. Open a terminal or command prompt.
-4. Run the file:
-
-```bash
-python filename.py
-```
-
 ## ☝️ Get Started with Python
 
-To download the python and run a program
+To download R and run a program
 
-1. Download a Python Interpreter to convert our source code to the byte code so that our machine can understnd it.
-[Downoad Python Interpreter here](https://www.python.org)
-2. Download a IDE to be able to write a python code. 
-  Popular IDE for python
-  - VSCode
-    [Download VSCode](https://code.visualstudio.com/download)
-  - PyCharm
-    [Download PyCharm](https://www.jetbrains.com/pycharm/source=google&medium=cpc&campaign=APAC_en_ASIA_PyCharm_Branded&term=pycharm&content=698987581392&gad_source=1&gad_campaignid=14123076217&gclid=Cj0KCQjwjJrCBhCXARIsAI5x66UeAb5WAcAaxqowU9ox1JWV4lG8f9UucRXk9cVInMEJTnbCrxa6HbIaAohOEALw_wcB)
+1. Install R Console first, like Java, you need the JVM before the IDE. [Download R Here](https://cloud.r-project.org) <br>
+If you're on Windows, follow these steps;
+    - After you click Windows, click the base link.
+    - Then, click the *Download R-4.5.1 for Windows*
+    - Then install that application in your terminal
 
-## 🐐 Credits to the GOAT BroCode for the references 
+2. Install R Studio;
+    - First, go to the website [RStudio](https://posit.co/download/rstudio-desktop)
+    - Click the *Download RStudio Desktop for Windows* Button
 
-For more detailed tutorial, check out the YouTube Link.
+## 🐐 Credits to these GOATS for the references 
 
-[BroCode - Python Full Course for free 🐍 (2024)](https://www.youtube.com/watch?v=ix9cRaBkVe0)
+For a more detailed tutorial on how to download R and RStudio, check out the YouTube Link. <br>
+[R Programming Tutorial - Learn the Basics of Statistical Computing](https://www.youtube.com/watch?v=_V8eKsto3Ug&t=1202s)
+
+For a more detailed tutorial, check out the YouTube Link. <br>
+[R Programming for Data Science - 6 Hours - Beginners - Data Science](https://www.youtube.com/watch?v=NVyOEwOJgNQ&t=571s)
