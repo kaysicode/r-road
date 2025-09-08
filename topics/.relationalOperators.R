@@ -23,3 +23,13 @@ z <- x > i
 print(z)
 z <- y != i
 print(z)
+
+# We can also compare or relate the two character
+char1 <- "Hello"
+char2 <- "Program"
+
+result <- char1 == char2
+print(result)
+result <- char2 > char1
+print(result)
+
