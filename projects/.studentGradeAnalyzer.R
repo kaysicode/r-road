@@ -11,6 +11,7 @@
 # validate user choice (loop until valid)
 
 # if manual mode:
+
 #   - ask number of students
 #   - for each student:
 #       * ask for prelim, midterm, final grades
@@ -39,7 +40,7 @@ read_grade <- function(subject) {
   repeat {  # same as while(TRUE)
     g <- suppressWarnings(as.numeric(readline(paste("  ", subject, " grade: "))))
     
-    if (!is.na(g) && g >= 0 && g <= 99) {
+    if (!is.na(g) && g >= 50 && g <= 99) {
       return(g)  # valid input, exit loop
     } else {
       cat("  invalid input! please enter a number between 0 and 99.\n")
@@ -131,8 +132,6 @@ if (option == 1) {
     names(averages)[top], 
     averages[top]
     ))
-  
-  plot_results(averages, coursename)
 
 } else if (option == 2) {
   file_path <- readline("Enter the CSV filename: ")
