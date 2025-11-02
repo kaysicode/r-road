@@ -22,4 +22,11 @@ codeGenerationExamples <- function() {
 codeGenerationExamples()
 
 
-        reformattingCodeExamples <- function() {messy123 <- "messyCode" cat("Result",messy123)}
+reformattingCodeExamples <- function() {
+  messy123 <- "messyCode"
+  cat("Result", messy123)
+}
+
+add <- function(a, b) {
+  return(a + b)
+}
