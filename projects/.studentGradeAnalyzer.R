@@ -43,7 +43,7 @@ read_grade <- function(subject) {
     if (!is.na(g) && g >= 50 && g <= 99) {
       return(g)  # valid input, exit loop
     } else {
-      cat("  invalid input! please enter a number between 0 and 99.\n")
+      cat("  invalid input! please enter a number between 50 and 99.\n")
     }
   }
 }
@@ -99,7 +99,7 @@ get_students <- function(file_path) {
 # Main Program
 # =====================
 
-cat("WELCOME TOSTUDENT GRADE ANALYER\n")
+cat("WELCOME TO STUDENT GRADE ANALYER\n")
 cat("================================\n\n")
 
 coursename <- as.character(readline("Enter the name of subject: "))
